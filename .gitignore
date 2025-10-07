@@ -1,0 +1,22 @@
+# Logs
+yarn-debug.log*
+yarn-error.log*
+
+# Binaries
+node_modules/
+.DS_Store
+
+# Builds
+dist/
+**/public/script.js*
+**/public/script.css*
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+uploads/
+__pycache__/
+.venv/
+
+# Local config
+.pdm-python
